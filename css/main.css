@@ -46,6 +46,15 @@ text-align: center;
     font-weight: 900;
 }
 
+.icon-star {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: white;
+    fill: white;
+  }
+
 hr{
     width: 200px;
     height: 5px;
@@ -115,6 +124,45 @@ hr{
 
 .contact{
     color: #212529;
+    text-align: center;
+    padding: 70px 1px;
+}
+
+form{
+    padding: 30px;
+}
+
+.contact-form{
+    font-weight: 600;
+    font-size: 23px;
+    display: block;
+    border-bottom: 1px solid #e9ecef;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 45%; 
+    height: 45px;
+    padding: 15px;
+    position: relative;
+    left: 27%;
+}
+
+#contact-message{
+    height: 160px;
+    margin-bottom: 30px;
+}
+
+.contact-button{
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    width: 70px;   
+    height: 40px;  
+    background-color:  #18bc9c;
+    position: relative;
+    left: -260px;
+    border-radius: 5%;
+    border: 1px solid transparent;
 }
 
 footer{

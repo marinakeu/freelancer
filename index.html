@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
 <body>
@@ -25,7 +26,7 @@
             <img src="assets/images/profile.png" alt="ilustração de homem de uniforme" id="profile">
             <h1 id='title'>START BOOTSTRAP</h1>
             <hr class="white-hr">
-            <svg class="icon-star"><use xlink:href="#icon-download3"></use></svg>
+            
             <h2 id="professional-labels">Web Developer - Graphic Artist - User Experience Designer</h2>
         </header>
         <section class="portfolio">
@@ -55,33 +56,33 @@
                 <input class="contact-form" type="text" placeholder="Name">
                 <input class="contact-form" type="text" placeholder="Email Address">
                 <input class="contact-form" type="text" placeholder="Phone Number">
-                <input id="contact-message" class="contact-form" type="text" placeholder="Message">
+                <textarea id="contact-message" class="contact-form">Message</textarea>
                 <input class="contact-button" type="button" value="Send">
             </form>
         </section>
     </main>
     <footer>
         <section class="footer-section">
-            <h3>LOCATION</h3>
-            <address>2215 John Daniel Drive 
-                    Clark, MO 65243</address>
+            <h3 class="footer-title">LOCATION</h3>
+            <address>3481 Melrose Place <br> 
+                    Beverly Hills, CA 90210</address>
         </section>
         <section class="footer-section">
-            <h3>AROUND THE WEB</h3>
+            <h3 class="footer-title">AROUND THE WEB</h3>
             <ul>
-                <li>f</li>
-                <li>g</li>
-                <li>t</li>
-                <li>l</li>
-                <li>ns</li>
+                <li class="social-nav"><i class="fab fa-facebook-f"></i></li>
+                <li class="social-nav"><i class="fab fa-google-plus-g"></i></li>
+                <li class="social-nav"><i class="fab fa-twitter"></i></li>
+                <li class="social-nav"><i class="fab fa-linkedin-in"></i></li>
+                <li class="social-nav"><i class="fab fa-dribbble"></i></li>
             </ul>
         </section>
         <section class="footer-section">
-            <h3>ABOUT FREELANCER</h3>
-            <p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+            <h3 class="footer-title">ABOUT FREELANCER</h3>
+            <p id="about-footer">Freelance is a free to use, open source Bootstrap theme created by <a href="https://startbootstrap.com/">Start Bootstrap</a>.</p>
         </section>
         <section>
-            <p>Copyright © Your Website 2019</p>
+            <small>Copyright © Your Website <time datetime="2017">2017</time></small>
         </section>
     </footer>
 </body>

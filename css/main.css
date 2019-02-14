@@ -2,17 +2,6 @@
     font-family: 'Lato', sans-serif;
 }
 
-/*@font-face {
-    font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot');
-    src:  url('../fonts/icomoon.eot') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf') format('truetype'),
-      url('../fonts/icomoon.woff') format('woff'),
-      url('../fonts/icomoon.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-  }*/
-
 .main-header{
 background-color: #2c3e50;
 color: white;
@@ -68,14 +57,9 @@ hr{
 }
 
 .white-hr::after {
-    position: relative;
-    top: -.8em;
-    display: inline-block;
-    padding: 0.25em;
     content: '\f005';
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    font-size: 2em;
     color: crimson;
     background-color: blueviolet;
   }
